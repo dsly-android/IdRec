@@ -1,0 +1,665 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "C:/Users/xiaohei/Downloads/IDRec/app",
+  "buildDirectory": "C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11",
+    "-DCMAKE_FIND_ROOT_PATH\u003dC:\\Users\\xiaohei\\Downloads\\IDRec\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dD:\\environment\\Android\\Sdk\\ndk\\17.2.4988734\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003dD:\\environment\\Android\\Sdk\\ndk\\17.2.4988734",
+    "-DANDROID_PLATFORM\u003dandroid-15",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_NDK\u003dD:\\environment\\Android\\Sdk\\ndk\\17.2.4988734",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\xiaohei\\Downloads\\IDRec\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
+    "-DCMAKE_MAKE_PROGRAM\u003dD:\\environment\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d15",
+    "-DANDROID_STL\u003dgnustl_shared",
+    "-DANDROID_ARM_NEON\u003dTRUE"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Check for working C compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: Check for working C compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: Check for working CXX compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: Check for working CXX compiler: D:/environment/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake","D:/environment/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"D:/environment/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"C:/Users/xiaohei/Downloads/IDRec/app","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a","name":"Project","sourceDirectory":"C:/Users/xiaohei/Downloads/IDRec/app","targets":[{"artifacts":["C:/Users/xiaohei/Downloads/IDRec/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so"],"buildDirectory":"C:/Users/xiaohei/Downloads/IDRec/app/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-isystem D:/environment/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -LC:/Users/xiaohei/Downloads/IDRec/app/src/main/jniLibs/armeabi-v7a -O0 -fno-limit-debug-info  -fPIC  ","defines":["native_lib_EXPORTS"],"includePath":[{"path":"C:/Users/xiaohei/Downloads/IDRec/app/src/main/cpp/include"},{"isSystem":true,"path":"D:/environment/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include"},{"isSystem":true,"path":"D:/environment/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include"},{"isSystem":true,"path":"D:/environment/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include/backward"}],"isGenerated":false,"language":"CXX","sources":["src/main/cpp/native-lib.cpp"]}],"fullName":"libnative-lib.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot D:/environment/Android/Sdk/ndk/17.2.4988734/platforms/android-15/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now","linkLibraries":"-llog -ljnigraphics -lopencv_java3 -latomic -lm \"D:/environment/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a\" \"D:/environment/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_shared.so\"","linkPath":"-LC:\\Users\\xiaohei\\Downloads\\IDRec\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"CXX","name":"native-lib","sourceDirectory":"C:/Users/xiaohei/Downloads/IDRec/app","sysroot":"D:/environment/Android/Sdk/ndk/17.2.4988734/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
